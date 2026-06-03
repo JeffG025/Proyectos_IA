@@ -1,0 +1,16 @@
+# === Dependencias del proyecto: Detección de Residuos con YOLO ===
+# Instalar con:  pip install -r requirements.txt
+
+# Núcleo: YOLO (incluye PyTorch, OpenCV, NumPy, etc.)
+ultralytics>=8.3.0
+
+# Descarga del dataset desde Roboflow
+roboflow>=1.1.0
+
+# Visualización y manejo de datos
+opencv-python>=4.8.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# Notebooks (exploración local; el entrenamiento va en Colab)
+jupyter>=1.0.0
